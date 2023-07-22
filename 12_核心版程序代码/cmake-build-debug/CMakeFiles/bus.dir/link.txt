@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\bus.dir/objects.a
+D:\Language\mingw\mingw64\bin\ar.exe cr CMakeFiles\bus.dir/objects.a @CMakeFiles\bus.dir\objects1.rsp
+D:\Language\mingw\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\bus.dir/objects.a -Wl,--no-whole-archive -o bus.exe -Wl,--out-implib,libbus.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\bus.dir\linklibs.rsp

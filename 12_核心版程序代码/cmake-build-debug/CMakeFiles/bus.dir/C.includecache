@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Code/LionProjects/bus/FCFS.c
+
+D:/Code/LionProjects/bus/SCAN.c
+
+D:/Code/LionProjects/bus/SSTF.c
+
+D:/Code/LionProjects/bus/head.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+D:/Code/LionProjects/bus/main.c
+head.h
+D:/Code/LionProjects/bus/head.h
+FCFS.c
+D:/Code/LionProjects/bus/FCFS.c
+SSTF.c
+D:/Code/LionProjects/bus/SSTF.c
+SCAN.c
+D:/Code/LionProjects/bus/SCAN.c
+
